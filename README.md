@@ -22,12 +22,14 @@ This is my personal infrastructure-as-code repository for managing AWS VPCs. The
 
 ## Architecture
 
+```
 VPC
 ├── Public Subnets (one per AZ)
 │ ├── Internet Gateway
 │ └── Route Table (routes to IGW)
 └── Private Subnets (one per AZ)
 └── Route Table (optional NAT Gateway)
+```
 
 ## Usage
 
